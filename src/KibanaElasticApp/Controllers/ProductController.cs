@@ -14,11 +14,11 @@ namespace KibanaElasticApp.Controllers
     [Route("api/[controller]")]
     public class ProductController : Controller
     {
-        private ElasticClientProvider EsclientProvider;
+        private ElasticClientProvider _esclientProvider;
 
         public ProductController(ElasticClientProvider elasticClientProvider)
         {
-            EsclientProvider = elasticClientProvider;
+            _esclientProvider = elasticClientProvider;
         }
 
         [HttpPost]
@@ -26,9 +26,9 @@ namespace KibanaElasticApp.Controllers
         {
             product.Id = Guid.NewGuid();
 
-            var res = await EsclientProvider.Client.IndexAsync(new IndexRequest<Product>(product));
+            var res = await _esclientProvider.Client.IndexAsync(new IndexRequest<Product>(product));
 
-            if (!res.IsValid)
+            if (res.IsValid)
             {
                 throw new InvalidOperationException(res.DebugInformation);
             }
@@ -39,7 +39,7 @@ namespace KibanaElasticApp.Controllers
         [HttpGet("find")]
         public async Task<IActionResult> Find(string term)
         {
-            var res = await EsclientProvider.Client.SearchAsync<Product>(x => x.Query(
+            var res = await _esclientProvider.Client.SearchAsync<Product>(x => x.Query(
                 q => q.SimpleQueryString(qs =>
                                          qs.Query(term))));
 

@@ -20,6 +20,8 @@ namespace KibanaElasticApp
         public static IWebHost BuildWebHost(string[] args) =>
             WebHost.CreateDefaultBuilder(args)
                 .UseStartup<Startup>()
+                .ConfigureLogging(logging =>
+                                 logging.AddFilter("*", LogLevel.Warning))
                 .Build();
     }
 }
