@@ -1,0 +1,17 @@
+/Users/venemarcos/Projects/KibanaElasticApp/KibanaElasticApp/bin/Debug/netcoreapp2.0/KibanaElasticApp.deps.json
+/Users/venemarcos/Projects/KibanaElasticApp/KibanaElasticApp/bin/Debug/netcoreapp2.0/KibanaElasticApp.runtimeconfig.json
+/Users/venemarcos/Projects/KibanaElasticApp/KibanaElasticApp/bin/Debug/netcoreapp2.0/KibanaElasticApp.runtimeconfig.dev.json
+/Users/venemarcos/Projects/KibanaElasticApp/KibanaElasticApp/bin/Debug/netcoreapp2.0/KibanaElasticApp.dll
+/Users/venemarcos/Projects/KibanaElasticApp/KibanaElasticApp/bin/Debug/netcoreapp2.0/KibanaElasticApp.pdb
+/Users/venemarcos/Projects/KibanaElasticApp/KibanaElasticApp/obj/Debug/netcoreapp2.0/KibanaElasticApp.csprojResolveAssemblyReference.cache
+/Users/venemarcos/Projects/KibanaElasticApp/KibanaElasticApp/obj/Debug/netcoreapp2.0/KibanaElasticApp.csproj.CoreCompileInputs.cache
+/Users/venemarcos/Projects/KibanaElasticApp/KibanaElasticApp/obj/Debug/netcoreapp2.0/KibanaElasticApp.AssemblyInfoInputs.cache
+/Users/venemarcos/Projects/KibanaElasticApp/KibanaElasticApp/obj/Debug/netcoreapp2.0/KibanaElasticApp.AssemblyInfo.cs
+/Users/venemarcos/Projects/KibanaElasticApp/KibanaElasticApp/obj/Debug/netcoreapp2.0/KibanaElasticApp.dll
+/Users/venemarcos/Projects/KibanaElasticApp/KibanaElasticApp/obj/Debug/netcoreapp2.0/KibanaElasticApp.pdb
+/Users/venemarcos/Projects/KibanaElasticApp/src/KibanaElasticApp/obj/Debug/netcoreapp2.0/KibanaElasticApp.csprojResolveAssemblyReference.cache
+/Users/venemarcos/Projects/KibanaElasticApp/src/KibanaElasticApp/obj/Debug/netcoreapp2.0/KibanaElasticApp.csproj.CoreCompileInputs.cache
+/Users/venemarcos/Projects/KibanaElasticApp/src/KibanaElasticApp/obj/Debug/netcoreapp2.0/KibanaElasticApp.AssemblyInfoInputs.cache
+/Users/venemarcos/Projects/KibanaElasticApp/src/KibanaElasticApp/obj/Debug/netcoreapp2.0/KibanaElasticApp.AssemblyInfo.cs
+/Users/venemarcos/Projects/KibanaElasticApp/src/KibanaElasticApp/obj/Debug/netcoreapp2.0/KibanaElasticApp.dll
+/Users/venemarcos/Projects/KibanaElasticApp/src/KibanaElasticApp/obj/Debug/netcoreapp2.0/KibanaElasticApp.pdb
