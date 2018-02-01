@@ -7,7 +7,7 @@ namespace KibanaElasticApp.Logger
 {
     public class ESLogger : ILogger
     {
-        public ESLogger(ElasticClientProvider esClient, IHttpContextAccessor )
+        public ESLogger(ElasticClientProvider esClient)
         {
 
         }
